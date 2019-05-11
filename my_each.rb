@@ -1,9 +1,8 @@
-
-
 def my_each (collection)
   count=0
   while count < collection.length
   yield
+  count += 1
 end
 return collection
 end
